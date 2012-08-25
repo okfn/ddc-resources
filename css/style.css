@@ -46,7 +46,10 @@ h1, #headerlink, h1 a {
   font: normal 32px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
   color: #2f2e2d;
   text-shadow: 1px 0 1px rgba(255, 255, 255, 0.6);
-  line-height: 24px;
+  line-height: 25px;
+}
+h1 {
+  margin-top: 8px;
 }
 h1 small, h1 small a, #headerlink {
   font-size: 18px;
