@@ -42,10 +42,18 @@ footer {
   color: grey;
 }
 
-h1, #headerlink {
-  font: normal 18px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
+h1, #headerlink, h1 a {
+  font: normal 32px 'PT Sans Narrow', Helvetica, Arial, sans-serif;
   color: #2f2e2d;
   text-shadow: 1px 0 1px rgba(255, 255, 255, 0.6);
+  line-height: 24px;
+}
+h1 small, h1 small a, #headerlink {
+  font-size: 18px;
+}
+h1 small a, h1 small a:hover {
+  color: #999;
+  text-decoration: none;
 }
 #headerlink {
   font-size: 14px;
