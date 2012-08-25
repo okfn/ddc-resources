@@ -115,42 +115,44 @@ a#infos:hover {
   color: #1a1a1a;
   text-shadow:none;
 }
-#jsinfos {
+#helpinfo {
   padding: 10px 20px;
   background: rgba(240, 240, 240, 0.2);
   border-radius: 4px;
   margin-bottom: 50px;
   box-shadow: 0 0 4px white;
 }
-#jsinfos h4 {
+#helpinfo h4 {
   margin-bottom: 4px;
   color: #f7df1e;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
 }
-#jsinfos p,
-#jsinfos a {
+#helpinfo p,
+#helpinfo a {
   color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
 }
-#jsinfos a:hover {
+#helpinfo a {
   text-decoration: underline;
 }
-#jsinfos input[type="submit"] {
+#helpinfo a:hover {
+  text-decoration: none;
+}
+#helpinfo input[type="submit"] {
   margin-top: -7px;
 }
-#jsinfos ul {
+#helpinfo ul {
   list-style-type: none;
   margin-left: 0;
 }
-#jsinfos ul li {
+#helpinfo ul li {
   display: inline;
   margin-right: 5px;
 }
-#jsinfos ul li a {
+#helpinfo ul li a {
   cursor: pointer;
   text-decoration: none;
 }
-#jsinfos ul li a:hover {
+#helpinfo ul li a:hover {
   text-decoration: none;
 }
 .btn {
